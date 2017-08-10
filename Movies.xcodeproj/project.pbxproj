@@ -15,6 +15,10 @@
 		225854531F3CBC0E00438032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225854521F3CBC0E00438032 /* main.m */; };
 		2258545D1F3CBC0E00438032 /* MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2258545C1F3CBC0E00438032 /* MoviesTests.m */; };
 		225854681F3CBC0F00438032 /* MoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225854671F3CBC0F00438032 /* MoviesUITests.m */; };
+		225854771F3CBC1E00438032 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 225854761F3CBC1E00438032 /* Movie.m */; };
+		2258547C1F3CC04300438032 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2258547B1F3CC04300438032 /* MovieCollectionViewCell.m */; };
+		22AB850C1F3CC5B9009E0721 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB850B1F3CC5B9009E0721 /* MovieDetailViewController.m */; };
+		22AB850F1F3CD139009E0721 /* MovieFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB850E1F3CD139009E0721 /* MovieFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		225854631F3CBC0F00438032 /* MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225854671F3CBC0F00438032 /* MoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesUITests.m; sourceTree = "<group>"; };
 		225854691F3CBC0F00438032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225854751F3CBC1E00438032 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		225854761F3CBC1E00438032 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		2258547A1F3CC04300438032 /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		2258547B1F3CC04300438032 /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		22AB850A1F3CC5B9009E0721 /* MovieDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		22AB850B1F3CC5B9009E0721 /* MovieDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
+		22AB850D1F3CD139009E0721 /* MovieFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieFlowLayout.h; sourceTree = "<group>"; };
+		22AB850E1F3CD139009E0721 /* MovieFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				225854441F3CBC0E00438032 /* AppDelegate.m */,
 				225854461F3CBC0E00438032 /* ViewController.h */,
 				225854471F3CBC0E00438032 /* ViewController.m */,
+				22AB850D1F3CD139009E0721 /* MovieFlowLayout.h */,
+				22AB850E1F3CD139009E0721 /* MovieFlowLayout.m */,
+				225854751F3CBC1E00438032 /* Movie.h */,
+				225854761F3CBC1E00438032 /* Movie.m */,
+				2258547A1F3CC04300438032 /* MovieCollectionViewCell.h */,
+				2258547B1F3CC04300438032 /* MovieCollectionViewCell.m */,
+				22AB850A1F3CC5B9009E0721 /* MovieDetailViewController.h */,
+				22AB850B1F3CC5B9009E0721 /* MovieDetailViewController.m */,
 				225854491F3CBC0E00438032 /* Main.storyboard */,
 				2258544C1F3CBC0E00438032 /* Assets.xcassets */,
 				2258544E1F3CBC0E00438032 /* LaunchScreen.storyboard */,
@@ -262,8 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AB850C1F3CC5B9009E0721 /* MovieDetailViewController.m in Sources */,
 				225854481F3CBC0E00438032 /* ViewController.m in Sources */,
+				2258547C1F3CC04300438032 /* MovieCollectionViewCell.m in Sources */,
 				225854531F3CBC0E00438032 /* main.m in Sources */,
+				225854771F3CBC1E00438032 /* Movie.m in Sources */,
+				22AB850F1F3CD139009E0721 /* MovieFlowLayout.m in Sources */,
 				225854451F3CBC0E00438032 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
